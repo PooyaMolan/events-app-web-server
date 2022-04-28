@@ -7,6 +7,8 @@ const {renderError} = require('../helpers/error-handler.helper');
 
 const apiServer = process.env.API_SERVER;
 
+
+
 /* GET home page. */
 router.get('/', async (req, res) => {
   let events;
